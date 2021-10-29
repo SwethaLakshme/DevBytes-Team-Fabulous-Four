@@ -1,1 +1,2 @@
-# DevBytes-Team-Fabulous-Four
+# Meet here
+An event management website
