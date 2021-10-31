@@ -46,13 +46,13 @@ section{
     text-align: center;
     padding-bottom: 2rem;
     color:#000000;
-    text-transform: uppercase;
+    
     font-size: 4rem;
 }
 
 .heading span{
     color:var(--main-color);
-    text-transform: uppercase;
+    
 }
 
 .btn{
@@ -119,12 +119,12 @@ section{
 .home .content h3{
     color:#FFFFFF;
     font-size: 4.5rem;
-    text-transform: uppercase;
+    
 }
 
 .home .content h3 span{
     color:#FFFFFF;
-    text-transform: uppercase;
+   
 }
 
 .events .home-slider .swiper-slide{
@@ -392,7 +392,101 @@ section{
 
 
 
-
+.adminlogin .container{
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 170px auto;
+}
+.adminlogin .wrapper{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+.adminlogin .wrapper .title{
+  height: 90px;
+  background: var(--main-color);
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adminlogin .wrapper form{
+  padding: 30px 25px 25px 25px;
+}
+.adminlogin .wrapper form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.adminlogin .wrapper form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.adminlogin form .row input:focus{
+  border-color: var(--main-color);
+  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+.adminlogin form .row input::placeholder{
+  color: #999;
+}
+.adminlogin .wrapper form .row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: var(--main-color);
+  border: 1px solid --main-color;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adminlogin .wrapper form .pass{
+  margin: -8px 0 20px 0;
+}
+.adminlogin .wrapper form .pass a{
+  color: var(--main-color);
+  font-size: 17px;
+  text-decoration: none;
+}
+.adminlogin .wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+.adminlogin .wrapper form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: var(--main-color);
+  border: 1px solid --main-color;
+  cursor: pointer;
+}
+.adminlogin form .button input:hover{
+  background: var(--main-color);
+}
+.adminlogin .wrapper form .signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.adminlogin .wrapper form .signup-link a{
+  color: var(--main-color);
+  text-decoration: none;
+}
+.adminlogin form .signup-link a:hover{
+  text-decoration: underline;
+}
 
 
 

@@ -1,2 +1,1 @@
-# Meet here
-An event management website
+# Code-club-admin
